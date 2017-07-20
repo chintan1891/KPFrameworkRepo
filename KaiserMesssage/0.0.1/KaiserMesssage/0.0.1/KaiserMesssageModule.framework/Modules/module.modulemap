@@ -1,0 +1,10 @@
+framework module KaiserMesssageModule {
+  umbrella header "KaiserMesssageModule.h"
+
+  export *
+  module * { export * }
+}
+
+module KaiserMesssageModule.Swift {
+    header "KaiserMesssageModule-Swift.h"
+}
