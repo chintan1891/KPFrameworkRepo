@@ -1,0 +1,10 @@
+framework module KaiserMemberCardModule {
+  umbrella header "KaiserMemberCardModule.h"
+
+  export *
+  module * { export * }
+}
+
+module KaiserMemberCardModule.Swift {
+    header "KaiserMemberCardModule-Swift.h"
+}
